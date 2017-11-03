@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Levels>
+<!--  //////////////////////////////////////////// -->
+<!-- УРОВНИ УЩЕРБА -->
+<LevelsOfDamage>
+	<!--  Малый ущерб -->
+    <LevelOfDamage>
+    	<id>1</id>
+        <Name>Малый ущерб</Name>
+        <Description>Приводит к незначительным потерям материальных активов, которые быстро восстанавливаются, или к незначительному влиянию на репутацию компании</Description>
+    </LevelOfDamage>
+    <!--  Умеренный ущерб -->
+    <LevelOfDamage>
+    	<id>2</id>
+        <Name>Умеренный ущерб</Name>
+        <Description>Вызывает заметные потери материальных активов или к умеренному влиянию на репутацию компании</Description>
+    </LevelOfDamage>
+    <!--  Ущерб средней тяжести -->
+    <LevelOfDamage>
+    	<id>3</id>
+        <Name>Ущерб средней тяжести</Name>
+        <Description>Приводит к существенным потерям материальных активов или значительному урону репутации компании</Description>
+    </LevelOfDamage>
+    <!--  Большой ущерб -->
+    <LevelOfDamage>
+    	<id>4</id>
+        <Name>Большой ущерб</Name>
+        <Description>Вызывает большие потери материальных активов и наносит большой урон репутации компании</Description>
+    </LevelOfDamage>
+    <!--  Критический ущерб -->
+    <LevelOfDamage>
+    	<id>5</id>
+        <Name>Критический ущерб</Name>
+        <Description>Приводит к значительным потерям материальных активов или к полной потере репутации компании на рынке, что делает невозможным дальнейшую деятельность организации</Description>
+    </LevelOfDamage>    
+</LevelsOfDamage>
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  УРОВНИ ВЕРОЯТНОСТИ ПРОВЕДЕНИЯ АТАКИ -->
+<LevelsOfAttackProbability>
+	<!--  Очень низкая -->
+    <LevelOfAttackProbability>
+    	<id>1</id>
+        <Name>Очень низкая</Name>
+        <Description>Атака практически никогда не будет проведена.</Description>
+    </LevelOfAttackProbability>
+    <!--  Низкая -->
+    <LevelOfAttackProbability>
+    	<id>2</id>
+        <Name>Низкая</Name>
+        <Description>Вероятность проведения атаки достаточно низкая.</Description>
+    </LevelOfAttackProbability>
+    <!--  Средняя -->
+    <LevelOfAttackProbability>
+    	<id>3</id>
+        <Name>Средняя</Name>
+        <Description>Вероятность проведения атакая приблизительно равна 0,5.</Description>
+    </LevelOfAttackProbability>
+    <!--  Высокая -->
+    <LevelOfAttackProbability>
+    	<id>4</id>
+        <Name>Высокая</Name>
+        <Description>Атака скорее всего будет проведена.</Description>
+    </LevelOfAttackProbability>
+    <!--  Очень высокая -->
+    <LevelOfAttackProbability>
+    	<id>5</id>
+        <Name>Очень высокая</Name>
+        <Description>Атака почти наверняка будет проведена.</Description>
+    </LevelOfAttackProbability>    
+</LevelsOfAttackProbability>
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  УРОВНИ РИСКА -->
+<LevelsOfRisk>
+<!--  //////////////////////////////////////////// -->
+   <!--  1). Низкий риск -->
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name><Description> </Description>
+        <LvlOfDamage>1</LvlOfDamage>
+        <LvlOfAttackProbability>1</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name><Description> </Description>
+        <LvlOfDamage>1</LvlOfDamage>
+        <LvlOfAttackProbability>2</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name><Description> </Description>
+        <LvlOfDamage>1</LvlOfDamage>
+        <LvlOfAttackProbability>3</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name><Description> </Description>
+        <LvlOfDamage>2</LvlOfDamage>
+        <LvlOfAttackProbability>1</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name><Description> </Description>
+        <LvlOfDamage>2</LvlOfDamage>
+        <LvlOfAttackProbability>2</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name><Description> </Description>
+        <LvlOfDamage>3</LvlOfDamage>
+        <LvlOfAttackProbability>1</LvlOfAttackProbability>
+    </LevelOfRisk>
+ <!--  //////////////////////////////////////////// -->
+    <!--  2). Средний риск -->
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>1</LvlOfDamage>
+        <LvlOfAttackProbability>4</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>1</LvlOfDamage>
+        <LvlOfAttackProbability>5</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>2</LvlOfDamage>
+        <LvlOfAttackProbability>3</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>2</LvlOfDamage>
+        <LvlOfAttackProbability>4</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>3</LvlOfDamage>
+        <LvlOfAttackProbability>2</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>3</LvlOfDamage>
+        <LvlOfAttackProbability>3</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>3</LvlOfDamage>
+        <LvlOfAttackProbability>4</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>4</LvlOfDamage>
+        <LvlOfAttackProbability>1</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>4</LvlOfDamage>
+        <LvlOfAttackProbability>2</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>4</LvlOfDamage>
+        <LvlOfAttackProbability>3</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>4</LvlOfDamage>
+        <LvlOfAttackProbability>4</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name><Description> </Description>
+        <LvlOfDamage>5</LvlOfDamage>
+        <LvlOfAttackProbability>1</LvlOfAttackProbability>
+    </LevelOfRisk>    
+<!--  //////////////////////////////////////////// -->  
+    <!--  3). Высокий риск -->
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description> </Description>
+        <LvlOfDamage>2</LvlOfDamage>
+        <LvlOfAttackProbability>5</LvlOfAttackProbability>
+    </LevelOfRisk>   
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description> </Description>
+        <LvlOfDamage>3</LvlOfDamage>
+        <LvlOfAttackProbability>5</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description> </Description>
+        <LvlOfDamage>4</LvlOfDamage>
+        <LvlOfAttackProbability>5</LvlOfAttackProbability>
+    </LevelOfRisk>  
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description> </Description>
+        <LvlOfDamage>5</LvlOfDamage>
+        <LvlOfAttackProbability>2</LvlOfAttackProbability>
+    </LevelOfRisk> 
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description> </Description>
+        <LvlOfDamage>5</LvlOfDamage>
+        <LvlOfAttackProbability>3</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description> </Description>
+        <LvlOfDamage>5</LvlOfDamage>
+        <LvlOfAttackProbability>4</LvlOfAttackProbability>
+    </LevelOfRisk>
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name><Description>Всё плохо.</Description>
+        <LvlOfDamage>5</LvlOfDamage>
+        <LvlOfAttackProbability>5</LvlOfAttackProbability>
+    </LevelOfRisk>    
+</LevelsOfRisk>
+<!--  //////////////////////////////////////////// -->  
+</Levels>
