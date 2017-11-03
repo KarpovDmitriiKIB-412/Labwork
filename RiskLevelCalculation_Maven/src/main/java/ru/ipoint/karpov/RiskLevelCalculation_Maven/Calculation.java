@@ -4,7 +4,7 @@ public class Calculation {
 
 	public static LevelOfDamage[] lvl_D_List;				//массив для хранения уровней ущерба
 	public static LevelOfAttackProbability[] lvl_P_List;	//массив для хранения уровней вероятности
-	public static RiskLevel[] lvl_R_List;	//массив для хранения уровней вероятности
+	public static RiskLevel[] lvl_R_List;	//массив для хранения уровней риска
 		
 	Calculation(LevelOfDamage[] lvl_D_List_, LevelOfAttackProbability[] lvl_P_List_, RiskLevel[] lvl_R_List_)
 	{		
