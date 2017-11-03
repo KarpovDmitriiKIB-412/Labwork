@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Levels>
+<!--  //////////////////////////////////////////// -->
+<!-- УРОВНИ УЩЕРБА -->
+<LevelsOfDamage>
+	<!--  Малый -->
+    <LevelOfDamage>
+    	<id>1</id>
+        <Name>Малый ущерб</Name>
+        <Description>abc</Description>
+    </LevelOfDamage>
+    <!--  средней тяжести -->
+    <LevelOfDamage>
+    	<id>2</id>
+        <Name>Средний ущерб</Name>
+        <Description>abc</Description>
+    </LevelOfDamage>
+    <!--  Большой -->
+    <LevelOfDamage>
+    	<id>3</id>
+        <Name>Большой ущерб</Name>
+        <Description>abc</Description>
+    </LevelOfDamage>   
+</LevelsOfDamage>
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  УРОВНИ ВЕРОЯТНОСТИ ПРОВЕДЕНИЯ АТАКИ -->
+<LevelsOfAttackProbability>
+    <!--  Низкая -->
+    <LevelOfAttackProbability>
+    	<id>1</id>
+        <Name>Низкая вероятность</Name>
+        <Description>abc</Description>
+    </LevelOfAttackProbability>
+    <!--  Средняя -->
+    <LevelOfAttackProbability>
+    	<id>2</id>
+        <Name>Средняя вероятность</Name>
+       <Description>abc</Description>
+    </LevelOfAttackProbability>
+    <!--  Высокая -->
+    <LevelOfAttackProbability>
+    	<id>3</id>
+        <Name>Высокая вероятность</Name>
+        <Description>abc</Description>
+    </LevelOfAttackProbability>  
+</LevelsOfAttackProbability>
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  УРОВНИ РИСКА -->
+<LevelsOfRisk>
+<!--  //////////////////////////////////////////// -->
+   <!--  1). Низкий риск -->
+    <LevelOfRisk>
+    	<id>1</id>
+        <Name>Низкий риск</Name>
+        <Description>abc</Description>
+    </LevelOfRisk>
+<!--  //////////////////////////////////////////// -->
+    <!--  2). Средний риск -->
+    <LevelOfRisk>
+    	<id>2</id>
+        <Name>Средний риск</Name>
+        <Description>abc</Description>
+    </LevelOfRisk>
+<!--  //////////////////////////////////////////// -->  
+    <!--  3). Высокий риск -->
+    <LevelOfRisk>
+    	<id>3</id>
+        <Name>Высокий риск</Name>
+        <Description>abc</Description>
+    </LevelOfRisk>  
+</LevelsOfRisk>
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  //////////////////////////////////////////// -->
+<!--  ПОИСК ID УРОВНЯ РИСКА ПО IDs Уровня ущерба и уровня вер-ти атаки -->
+<Search_LevelsOfRisk>
+<!--  //////////////////////////////////////////// -->
+   <!--  1). Низкий риск -->
+    <Level>
+    	<LvlOfRisk_ID>1</LvlOfRisk_ID>
+        <LvlOfDamage_ID>1</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>1</LvlOfAttackProbability_ID>
+    </Level>
+    <Level>
+    	<LvlOfRisk_ID>1</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>1</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>2</LvlOfAttackProbability_ID>
+    </Level>
+    <Level>
+    	<LvlOfRisk_ID>1</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>2</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>1</LvlOfAttackProbability_ID>
+    </Level>
+ <!--  //////////////////////////////////////////// -->
+    <!--  2). Средний риск -->
+    <Level>
+    	<LvlOfRisk_ID>2</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>1</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>3</LvlOfAttackProbability_ID>
+    </Level>
+    <Level>
+    	<LvlOfRisk_ID>2</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>2</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>2</LvlOfAttackProbability_ID>
+    </Level>
+    <Level>
+    	<LvlOfRisk_ID>2</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>3</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>1</LvlOfAttackProbability_ID>
+    </Level>  
+<!--  //////////////////////////////////////////// -->  
+    <!--  3). Высокий риск -->
+    <Level>
+    	<LvlOfRisk_ID>3</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>2</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>3</LvlOfAttackProbability_ID>
+    </Level>   
+    <Level>
+    	<LvlOfRisk_ID>3</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>3</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>3</LvlOfAttackProbability_ID>
+    </Level>
+    <Level>
+    	<LvlOfRisk_ID>3</LvlOfRisk_ID>        
+        <LvlOfDamage_ID>3</LvlOfDamage_ID>
+        <LvlOfAttackProbability_ID>2</LvlOfAttackProbability_ID>
+    </Level>     
+</Search_LevelsOfRisk>
+<!--  //////////////////////////////////////////// -->  
+</Levels>
