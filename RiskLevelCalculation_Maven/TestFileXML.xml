@@ -9,7 +9,7 @@
         <Name>Малый ущерб</Name>
         <Description>abc</Description>
     </LevelOfDamage>
-    <!--  средней тяжести -->
+    <!--  Средней тяжести -->
     <LevelOfDamage>
     	<id>2</id>
         <Name>Средний ущерб</Name>
@@ -27,19 +27,19 @@
 <!--  //////////////////////////////////////////// -->
 <!--  УРОВНИ ВЕРОЯТНОСТИ ПРОВЕДЕНИЯ АТАКИ -->
 <LevelsOfAttackProbability>
-    <!--  Низкая -->
+    <!--  Низкий -->
     <LevelOfAttackProbability>
     	<id>1</id>
         <Name>Низкая вероятность</Name>
         <Description>abc</Description>
     </LevelOfAttackProbability>
-    <!--  Средняя -->
+    <!--  Средний -->
     <LevelOfAttackProbability>
     	<id>2</id>
         <Name>Средняя вероятность</Name>
        <Description>abc</Description>
     </LevelOfAttackProbability>
-    <!--  Высокая -->
+    <!--  Высокий -->
     <LevelOfAttackProbability>
     	<id>3</id>
         <Name>Высокая вероятность</Name>

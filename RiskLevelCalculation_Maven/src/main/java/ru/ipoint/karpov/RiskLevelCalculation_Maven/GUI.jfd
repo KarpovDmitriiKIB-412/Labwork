@@ -10,6 +10,7 @@ new FormModel {
 		} ) {
 			name: "this"
 			"title": "Определение уровня риска ИБ"
+			"defaultCloseOperation": 3
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label1"
 				"text": "Уровень ущерба:"

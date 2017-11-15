@@ -39,34 +39,34 @@
 <!--  //////////////////////////////////////////// -->
 <!--  УРОВНИ ВЕРОЯТНОСТИ ПРОВЕДЕНИЯ АТАКИ -->
 <LevelsOfAttackProbability>
-	<!--  Очень низкая -->
+	<!--  Очень низкий -->
     <LevelOfAttackProbability>
     	<id>1</id>
-        <Name>Очень низкая</Name>
+        <Name>Очень низкий</Name>
         <Description>Атака практически никогда не будет проведена.</Description>
     </LevelOfAttackProbability>
-    <!--  Низкая -->
+    <!--  Низкий -->
     <LevelOfAttackProbability>
     	<id>2</id>
-        <Name>Низкая</Name>
+        <Name>Низкий</Name>
         <Description>Вероятность проведения атаки достаточно низкая.</Description>
     </LevelOfAttackProbability>
-    <!--  Средняя -->
+    <!--  Средний -->
     <LevelOfAttackProbability>
     	<id>3</id>
-        <Name>Средняя</Name>
-        <Description>Вероятность проведения атакая приблизительно равна 0,5.</Description>
+        <Name>Средний</Name>
+        <Description>Вероятность проведения атаки приблизительно равна 0,5.</Description>
     </LevelOfAttackProbability>
-    <!--  Высокая -->
+    <!--  Высокий -->
     <LevelOfAttackProbability>
     	<id>4</id>
-        <Name>Высокая</Name>
+        <Name>Высокий</Name>
         <Description>Атака скорее всего будет проведена.</Description>
     </LevelOfAttackProbability>
-    <!--  Очень высокая -->
+    <!--  Очень высокий -->
     <LevelOfAttackProbability>
     	<id>5</id>
-        <Name>Очень высокая</Name>
+        <Name>Очень высокий</Name>
         <Description>Атака почти наверняка будет проведена.</Description>
     </LevelOfAttackProbability>    
 </LevelsOfAttackProbability>

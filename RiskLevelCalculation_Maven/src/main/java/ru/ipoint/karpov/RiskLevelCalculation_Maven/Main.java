@@ -31,6 +31,8 @@ public class Main {
 		GUI app = new GUI(calculation);
 		app.setVisible(true);
 		
+		
+		
 	
 		
 		return;

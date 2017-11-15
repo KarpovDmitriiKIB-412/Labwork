@@ -9,6 +9,7 @@ import RiskLevel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -130,6 +131,10 @@ public class GUI extends JFrame {
 		textPane3.setVisible(false);
 	}
 
+	private void menuItem2ActionPerformed(ActionEvent e) {
+		// TODO add your code here
+	}
+
 
 
 
@@ -137,7 +142,7 @@ public class GUI extends JFrame {
 
 	private void initComponents() {
 		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-		// Generated using JFormDesigner Evaluation license - Dmitrii Karpov
+		// Generated using JFormDesigner Evaluation license - Dmity Karpov
 		menuBar1 = new JMenuBar();
 		menu1 = new JMenu();
 		menuItem1 = new JMenuItem();
@@ -154,6 +159,7 @@ public class GUI extends JFrame {
 
 		//======== this ========
 		setTitle("\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u0432\u043d\u044f \u0440\u0438\u0441\u043a\u0430 \u0418\u0411");
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		Container contentPane = getContentPane();
 		contentPane.setLayout(new MigLayout(
 			"hidemode 3",
@@ -224,6 +230,7 @@ public class GUI extends JFrame {
 				menuItem1.addActionListener(new ActionListener() {
 					@Override
 					public void actionPerformed(ActionEvent e) {
+						menuItem2ActionPerformed(e);
 						menuItem1ActionPerformed(e);
 					}
 				});
@@ -275,7 +282,7 @@ public class GUI extends JFrame {
 	}
 
 	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-	// Generated using JFormDesigner Evaluation license - Dmitrii Karpov
+	// Generated using JFormDesigner Evaluation license - Dmity Karpov
 	private JMenuBar menuBar1;
 	private JMenu menu1;
 	private JMenuItem menuItem1;

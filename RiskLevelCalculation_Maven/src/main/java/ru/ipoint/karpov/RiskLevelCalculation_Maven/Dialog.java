@@ -49,7 +49,7 @@ public class Dialog extends JFrame {
 
 	private void initComponents() {
 		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-		// Generated using JFormDesigner Evaluation license - Dmitrii Karpov
+		// Generated using JFormDesigner Evaluation license - Dmity Karpov
 		textPane1 = new JTextPane();
 
 		//======== this ========
@@ -63,7 +63,7 @@ public class Dialog extends JFrame {
 	}
 
 	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-	// Generated using JFormDesigner Evaluation license - Dmitrii Karpov
+	// Generated using JFormDesigner Evaluation license - Dmity Karpov
 	private JTextPane textPane1;
 	// JFormDesigner - End of variables declaration  //GEN-END:variables
 }
